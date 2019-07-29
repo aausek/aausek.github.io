@@ -4,7 +4,7 @@
     "version": "5.0.7",
     "scripts": {
         "start": "node_modules/.bin/gulp watch",
-        "postinstall": "gulp default"
+       
     },
     "description": "Resume is a simple, yet elegant resume and CV theme for Bootstrap 4.",
     "keywords": [
@@ -33,11 +33,11 @@
         "@fortawesome/fontawesome-free": "5.9.0",
         "bootstrap": "4.3.1",
         "jquery": "3.4.1",
-        "jquery.easing": "^1.4.1",
-        "browser-sync": "2.26.7"
+        "jquery.easing": "^1.4.1"
+        
     },
     "devDependencies": {
-        
+        "browser-sync": "2.26.7",
         "del": "4.1.1",
         "gulp": "4.0.2",
         "gulp-autoprefixer": "6.1.0",
