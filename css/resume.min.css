@@ -88,7 +88,7 @@ p.lead {
 #sideNav .navbar-nav .nav-item .nav-link {
     font-weight: 800;
     letter-spacing: .05rem;
-    text-transform: uppercase
+    text-transform: uppercase;
 }
 
 #sideNav .navbar-toggler:focus {
@@ -119,8 +119,8 @@ p.lead {
         padding: .5rem
     }
     #sideNav .navbar-brand .img-profile {
-        max-width: 10rem;
-        max-height: 10rem;
+        max-width: 18rem;
+        max-height: 18rem;
         border: .5rem solid rgba(255, 255, 255, .2)
     }
     #sideNav .navbar-collapse {
@@ -190,19 +190,28 @@ a {
 }
 
 a:active,
-a:focus,
-a:hover {
-    color: #1D8BBE
+a:focus {
+    color: #1D8BBE;
+    
 }
 
-.auggie, .charlie{
-    float: right;
+a:hover {
+    color: #003366
+}
+
+.images {
+    text-align: center;
+}
+
+.auggie, .charlie, .f1 {
+    display: inline-block;
     border-radius: 50%;
     border-style: solid;
     border-width: 0.5em;
     border-color: #1D8BBE;
+    max-width: 11em;
 }
 
-/* about{
-    background-color: #93aaed;
-} */
+.f1 {
+    display: inline-block;
+}
